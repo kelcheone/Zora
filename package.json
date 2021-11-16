@@ -1,0 +1,16 @@
+{
+  "name": "0xabEFBc9fD2F806065b4f3C237d4b59D9A97Bcac7",
+  "license": "UNLICENSED",
+  "scripts": {
+    "codegen": "graph codegen",
+    "build": "graph build",
+    "deploy": "graph deploy --node https://api.studio.thegraph.com/deploy/ 0xabEFBc9fD2F806065b4f3C237d4b59D9A97Bcac7",
+    "create-local": "graph create --node http://localhost:8020/ 0xabEFBc9fD2F806065b4f3C237d4b59D9A97Bcac7",
+    "remove-local": "graph remove --node http://localhost:8020/ 0xabEFBc9fD2F806065b4f3C237d4b59D9A97Bcac7",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 0xabEFBc9fD2F806065b4f3C237d4b59D9A97Bcac7"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-cli": "0.22.4",
+    "@graphprotocol/graph-ts": "0.22.1"
+  }
+}
